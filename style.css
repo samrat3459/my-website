@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: darkslategray;
+}
+.name-highlight{
+    color: rgb(128, 0, 128);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(30deg, lightsalmon, purple);
+    padding:10px 20px ;
+    border-radius: 10px;
+    color: white;
+    font-weight:800 ;
+}
+.visit-button{
+    text-decoration: none;
+    background-image: linear-gradient(30deg, lightsalmon, blue);
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+.image{
+    float: left;
+    box-shadow: 5px 5px 20px rgb(218, 206, 206);
+    margin-left: 3%;
+    border-radius: 10px;
+    width: 30%;
+}
+.image img{
+    width: 100%;
+}
+.mid{
+    text-align: center;
+}
+.work-inq{
+    background-image: url("image/border.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 100px 200px;
+    border-radius: 20px;
+}
+.inquiry{
+    padding-top: 30px;
+    width: 40%;
+    float: left;
+    color: white;
+    font-size: 35px;
+    padding-top: 35px;
+}
+.button-chat{
+    width: 20%;
+    float: right;
+    bottom: 70px;
+    padding: 80px 16px;
+}
+.btn-link {
+    text-transform: capitalize;
+    font-weight: 400;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 5px 10px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    color: red;
+}
